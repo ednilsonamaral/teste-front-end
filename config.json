@@ -1,0 +1,11 @@
+{
+	"tasksPath": "./tasks",
+  "stylusSrcFolder": "./_source/assets/css",
+  "stylusDestFolder": "./_public/assets/css",
+  "pugSrcFolder": "./_source",
+  "pugDestFolder": "./_public",
+  "jsSrcFolder": "./_source/assets/js",
+  "jsDestFolder": "./_public/assets/js",
+  "imgSrcFolder": "./_source/assets/img",
+  "imgDestFolder": "./_public/assets/img"
+}
