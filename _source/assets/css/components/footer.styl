@@ -2,11 +2,21 @@
 	height 252px
 	background-color $gray-four
 
+	+below(425px)
+		height 283px
+		margin-top 50px
+
 	.content
 		.redes, .endereco
 			col(1/2)
 			margin-top 20px
 			padding 40px
+
+			+below(425px)
+				center(100%)
+				text-align center
+				margin 0
+				padding 20px
 
 		.redes
 			.title
@@ -34,6 +44,9 @@
 		.endereco
 			text-align right
 
+			+below(425px)
+				text-align center
+
 			p
 				set-font-size(13px)
 				font-weight 500
@@ -43,6 +56,9 @@
 
 				&:last-child
 					margin-top 20px
+
+					+below(768px)
+						margin-left 0
 
 	.copyright
 		height 51px

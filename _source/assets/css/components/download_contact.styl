@@ -4,6 +4,9 @@
 		text-align center
 		margin-top 200px
 
+		+below(425px)
+			center(100%)
+
 	.download-box
 		.image
 			width 208px
@@ -26,10 +29,19 @@
 					letter-spacing 1.4px
 					margin-left 8px
 
+			.button-white
+				+below(768px)
+					margin-top 10px
+
 	.contact-box
 		.form
 			width 80%
 			text-align right
+
+			+below(425px)
+				width 100%
+				padding 0 10px
+				text-align center
 
 			.title
 				set-font-size(20px)
@@ -52,3 +64,7 @@
 					set-font-size(14px)
 					line-height 1.71
 					letter-spacing 1.4px
+
+				.button
+					+below(425px)
+						margin 15px 0

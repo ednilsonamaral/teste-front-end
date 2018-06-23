@@ -6,12 +6,19 @@
 	&.parallax
 			height 50vh !important
 
+	+below(425px)
+		&.parallax
+			height 100vh !important
+
 	.content
 		width 100%
 		position absolute
 		margin-top 100px
 		// top 99vh
 		// transform translateY(-99%)
+
+		+below(425px)
+			margin-top 25px
 
 		.box
 			width 50%
@@ -39,6 +46,9 @@
 			width 55%
 			margin-top 200px
 			margin-bottom 25px
+
+			+below(425px)
+				margin-top 280px
 
 			.number
 				set-font-size(14px)
