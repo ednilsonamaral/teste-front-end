@@ -1,0 +1,32 @@
+section.download.parallax#download(data-speed='10')
+	.container
+		.download-box
+			img.image(src='assets/img/logo-conectus.svg', alt='Faça o download do aplicativo')
+			
+			.buttons
+				button(type='button').button
+					img(src='assets/img/icon-apple-store.png', alt='Download do aplicativo para iOS')
+					span Download the app
+					
+				button(type='button').button.button-white
+					img(src='assets/img/icon-play-store.png', alt='Download do aplicativo para Android')
+					span Download the app
+			
+		.contact-box
+			form.form
+				h2.title quer falar com a gente?
+				
+				.group
+					input.input(type='text', placeholder='Nome', name='nome' id='nome')
+				
+				.group
+					input.input(type='email', placeholder='E-mail', name='email' id='email')
+						
+				.group
+					input.input(type='tel', placeholder='Telefone', name='telefone' id='telefone')
+
+				.group
+					textarea.textarea(placeholder='Mensagem', name='mensagem', id='mensagem', rows='5')
+				
+				.group
+					button(type='button').button Enviar

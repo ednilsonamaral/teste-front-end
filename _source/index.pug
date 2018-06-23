@@ -4,5 +4,13 @@ html(lang='pt-br')
 	include ./_includes/head.pug
 	
 	body
-		div.container
-			p Hello world!
+		div.container-fluid
+			include ./_includes/main.pug
+			include ./_includes/about.pug
+			include ./_includes/infos.pug
+			include ./_includes/features.pug
+			include ./_includes/download_contact.pug
+			include ./_includes/footer.pug
+		
+		script(src='assets/js/jquery.min.js')
+		script(src='assets/js/main.js')

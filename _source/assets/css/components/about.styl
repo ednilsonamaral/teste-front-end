@@ -1,0 +1,40 @@
+#about
+	background-image url('../img/bkg-iphone.png')
+	background-position top right !important
+	background-size 421px 301px
+
+	&.parallax
+			height 50vh !important
+
+	// background url('../img/bkg-iphone.png') no-repeat top right fixed
+	// background-size 521px 404px
+	// position absolute
+	// width 100%
+	// height 100%
+	// margin-top 100vh
+
+	.content
+		width 60vw
+		margin-top 80px
+		margin-left 20px
+
+		+below(1024px)
+			width 45vw
+			margin-top 60px
+
+		.title
+			set-font-size(24px)
+			font-weight bold
+			line-height 1
+			letter-spacing 3.4px
+			color $green-one
+			text-transform uppercase
+			margin-bottom 40px
+
+		.text
+			set-font-size(14px)
+			line-height 1.71
+			letter-spacing 2.1px
+			text-align justify
+			color $gray-one
+			margin 20px 0

@@ -1,0 +1,71 @@
+.footer
+	height 252px
+	background-color $gray-four
+
+	.content
+		.redes, .endereco
+			col(1/2)
+			margin-top 20px
+			padding 40px
+
+		.redes
+			.title
+				set-font-size(20px)
+				font-weight bold
+				line-height 1.2
+				letter-spacing 2.8px
+				color $gray-one
+				text-transform uppercase
+				margin-bottom 30px
+
+			.icons
+				ul
+					margin 0
+					padding 0
+
+					li
+						display inline
+						margin 0 5px
+						cursor pointer
+
+						&:first-child
+							margin-left 0
+
+		.endereco
+			text-align right
+
+			p
+				set-font-size(13px)
+				font-weight 500
+				line-height 1.69
+				letter-spacing 1.8px
+				color $gray-one
+
+				&:last-child
+					margin-top 20px
+
+	.copyright
+		height 51px
+		text-align center
+		background-color $green-two
+
+		.text, .logo
+			span(1/2)
+			height inherit
+			padding 10px 0
+
+		.logo
+			text-align right
+
+			.image
+				width 107px
+				height 32px
+
+		.text
+			text-align left
+			set-font-size(13px)
+			font-weight 800
+			line-height 1.69
+			letter-spacing 1.8px
+			color $white
+			padding 18px 0

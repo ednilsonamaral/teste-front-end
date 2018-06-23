@@ -4,7 +4,7 @@ module.exports = function (gulp, plugins, config) {
 
 	gulp.task('pug', function() {
 		return gulp.src(config.pugSrcFolder + '/**/*.pug')
-			.pipe(plugins.pug())
+			.pipe(plugins.pug({ pretty: true }))
       .pipe(gulp.dest(config.pugDestFolder))
       .pipe(reload({stream: true}));
 	});

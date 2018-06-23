@@ -1,1 +1,152 @@
-<!DOCTYPE html><html lang="pt-br"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ti-Rex</title><meta name="description" content=""><meta name="keywords" content=""><link rel="stylesheet" href="assets/css/styles.min.css"></head><body><div class="container"><p>Hello world!</p></div></body></html>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - Conectus</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <section class="main parallax" id="main" data-speed="15">
+        <div class="container">
+          <header class="header">
+            <div class="logo"><img src="assets/img/logo-conectus.svg" alt="Logotipo da Conectus"></div>
+            <div class="main-menu">
+              <nav>
+                <ul>
+                  <li><a href="#about">Sobre</a></li>
+                  <li><a href="#infos">Destaques</a></li>
+                  <li><a href="#features">Funcionalidades</a></li>
+                  <li><a href="#download">Baixar o App</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <div class="main-text">
+            <h1 class="title">lorem ipsum dolor sit</h1>
+            <button class="button" type="button">saiba mais</button>
+          </div>
+          <div class="arrow"><a href="#about"><img src="assets/img/arrow-alt-circle-down.png" alt="Ir para a próxima seção"></a></div>
+        </div>
+      </section>
+      <section class="about parallax" id="about" data-speed="10">
+        <div class="container">
+          <div class="content">
+            <h1 class="title">sobre a conectus</h1>
+            <p class="text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun<strong> ut labore </strong>et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="infos parallax" id="infos" data-speed="10">
+        <div class="container">
+          <div class="content">
+            <div class="box item-1">
+              <h2 class="title">lorem 1</h2>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="box item-2">
+              <h2 class="title">lorem 2</h2>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="box item-3">
+              <h2 class="title">lorem 3</h2>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="arrows">
+              <p class="number">01/03</p><a class="previous" href="#"><img src="./assets/img/fa-angle-left.png"></a><a class="next" href="#"><img src="./assets/img/fa-angle-right.png"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features parallax" id="features" data-speed="10">
+        <div class="container">
+          <div class="content">
+            <h2 class="title">as funcionalidades</h2>
+            <div class="feature"><img class="image" src="assets/img/servico-1.svg" alt="Serviço 1">
+              <p class="featured">lorem</p>
+            </div>
+            <div class="feature">
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <button class="button" type="button">saiba mais</button>
+            </div>
+            <div class="feature"><img class="image" src="assets/img/servico-3.svg" alt="Serviço 3">
+              <p class="featured">lorem</p>
+            </div>
+            <div class="feature"><img class="image" src="assets/img/servico-4.svg" alt="Serviço 4">
+              <p class="featured">lorem</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="download parallax" id="download" data-speed="10">
+        <div class="container">
+          <div class="download-box"><img class="image" src="assets/img/logo-conectus.svg" alt="Faça o download do aplicativo">
+            <div class="buttons">
+              <button class="button" type="button"><img src="assets/img/icon-apple-store.png" alt="Download do aplicativo para iOS"><span>Download the app</span></button>
+              <button class="button button-white" type="button"><img src="assets/img/icon-play-store.png" alt="Download do aplicativo para Android"><span>Download the app</span></button>
+            </div>
+          </div>
+          <div class="contact-box">
+            <form class="form">
+              <h2 class="title">quer falar com a gente?</h2>
+              <div class="group">
+                <input class="input" type="text" placeholder="Nome" name="nome" id="nome">
+              </div>
+              <div class="group">
+                <input class="input" type="email" placeholder="E-mail" name="email" id="email">
+              </div>
+              <div class="group">
+                <input class="input" type="tel" placeholder="Telefone" name="telefone" id="telefone">
+              </div>
+              <div class="group">
+                <textarea class="textarea" placeholder="Mensagem" name="mensagem" id="mensagem" rows="5"></textarea>
+              </div>
+              <div class="group">
+                <button class="button" type="button">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="content">
+            <div class="redes">
+              <h1 class="title">conectus nas redes</h1>
+              <div class="icons">
+                <ul>
+                  <li><img src="assets/img/icon-black-facebook.png" alt="Conectus no Facebook"></li>
+                  <li><img src="assets/img/icon-black-twitter.png" alt="Conectus no Twitter"></li>
+                  <li><img src="assets/img/icon-black-instagram.png" alt="Conectus no Instagram"></li>
+                  <li><img src="assets/img/icon-black-youtube.png" alt="Conectus no YouTube"></li>
+                  <li><img src="assets/img/icon-black-whatsapp.png" alt="Conectus no WhatsApp"></li>
+                  <li><img src="assets/img/icon-black-skype.png" alt="Conectus no Skype"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="endereco">
+              <p>rua nossa senhora de copacabana, </p>
+              <p>1355 - sala 2 - copacabana</p>
+              <p>rio de janeiro</p>
+              <p>olar@conectus.com • +55 21 99999-9922</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="copyright">
+            <div class="logo"><img class="image" src="assets/img/logo-conectus.svg" alt="Todos os direitos reservados a Conectus"></div>
+            <p class="text">- 2018</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
